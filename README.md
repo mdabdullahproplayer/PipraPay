@@ -1,135 +1,71 @@
 # 🚀 PipraPay
 
 🌍 https://piprapay.com  
-📚 Docs: https://piprapay.readme.io/reference/overview  
+📚 Docs: https://help.piprapay.com/  
+📘 API Reference: https://piprapay.readme.io  
 🐛 Issues: https://github.com/PipraPay/PipraPay/issues  
 
 ---
 
 ## 👋 What is PipraPay?
 
-**PipraPay** is the **first open-source payment automation system** — a self-hosted, plugin-based platform that unifies payment gateways, wallets, APIs, and SMS-based verification into one powerful workflow engine.
+PipraPay is the **first open-source payment automation system (AGPL-3.0)** — a self-hosted, plugin-based platform that unifies payment gateways, wallets, APIs, and SMS-based verification into one system.
 
-It allows developers and businesses to **accept, verify, and automate payments from any system — API or non-API — under one infrastructure.**
+It helps developers and businesses **accept, verify, and automate payments from any method — API or non-API — in a single workflow.**
 
 ---
 
 ## 💡 Why PipraPay Exists
 
-In many countries, modern payment infrastructure is limited:
+Many regions lack modern payment infrastructure:
 
-- No Stripe or PayPal availability
-- Local wallets without proper APIs
-- Manual payment verification (SMS screenshots, TXID checks)
-- Time-consuming reconciliation processes
+- No Stripe/PayPal availability  
+- Local wallets without APIs  
+- Manual SMS-based verification  
+- Slow reconciliation processes  
 
-### ⚡ PipraPay solves this by:
+PipraPay solves this by:
 
-- Automating payment verification workflows
-- Turning SMS-based payments into programmable events
-- Unifying multiple gateways under one system
-- Removing manual transaction handling
-
----
-
-## ⚙️ Core Features
-
-- 🔌 Plugin-based architecture (like WordPress for payments)
-- 🌐 Multi-gateway support (Stripe, PayPal, bKash, Nagad, and more)
-- 📲 SMS-based payment verification engine
-- 🔗 Webhook-based automation system
-- 🧩 Custom gateway and module support
-- ⚡ Real-time transaction processing
-- 🏗 Fully self-hosted deployment
-- 📊 Developer-friendly REST APIs & SDKs
+- Automating payment verification  
+- Turning SMS payments into programmable events  
+- Unifying all gateways under one system  
+- Removing manual transaction handling  
 
 ---
 
-## 🧠 Key Concept
+## ⚙️ Features
 
-PipraPay is not just a payment gateway.
-
-It is a **payment automation infrastructure layer** that connects:
-
-- API-based payments (Stripe, PayPal, etc.)
-- Local wallet systems
-- SMS-based/manual verification systems
-- Custom business workflows
+- Plugin-based architecture  
+- Multi-gateway support (Stripe, PayPal, bKash, Nagad, etc.)  
+- SMS verification engine  
+- Webhook automation  
+- Custom gateway plugins  
+- REST API + SDK support  
+- Fully self-hosted  
 
 ---
 
 ## 📦 Documentation
 
-👉 https://piprapay.readme.io/reference/overview  
+👉 Docs: https://help.piprapay.com/  
+👉 API Reference: https://piprapay.readme.io  
 
-Learn how to:
-- Install PipraPay
-- Build plugins & modules
-- Integrate APIs
-- Configure gateways
-- Use webhooks & automation
+- Install PipraPay  
+- Build plugins & modules  
+- Integrate APIs  
+- Configure gateways  
+- Use webhooks & automation  
 
 ---
 
 ## 🤝 Contributing
 
-We welcome developers, contributors, and builders.
+- Report bugs  
+- Suggest features  
+- Build plugins/modules  
+- Improve documentation  
 
-### You can contribute by:
-- Reporting bugs
-- Suggesting features
-- Building plugins/modules
-- Improving documentation
-- Sharing real-world use cases
-
-👉 Issues: https://github.com/PipraPay/PipraPay/issues  
-
----
-
-## ⭐ Star the Project
-
-If you find PipraPay useful, please consider giving it a ⭐ on GitHub.
-
-It helps us grow the open-source ecosystem and reach more developers worldwide.
-
----
-
-## ⚖️ License
-
-PipraPay is licensed under **AGPL-3.0**
-
-### ✅ You ARE allowed to:
-- Use PipraPay for personal or commercial use
-- Self-host and modify the system
-- Build and distribute plugins
-- Contribute to the ecosystem
-
-### ❌ You are NOT allowed to:
-- Rebrand and sell PipraPay as a closed-source SaaS without sharing source modifications
-- Remove license or attribution
-- Distribute modified versions without keeping them open under AGPL terms
-
----
-
-## ❤️ Vision
-
-Our mission is simple:
-
-> Make payment automation open, flexible, and accessible to everyone — without vendor lock-in or dependency on centralized platforms.
-
----
-
-## 🏢 Built by
-
-Developed and maintained by **QubePlug**
-
-🌍 https://qubeplug.com
-
----
-
-## 📢 Community
-
-Join discussions, share ideas, and get updates through the community channels linked in the official website.
+👉 https://github.com/PipraPay/PipraPay/issues  
 
 ---
 
@@ -138,7 +74,15 @@ Join discussions, share ideas, and get updates through the community channels li
 ```bash
 git clone https://github.com/PipraPay/PipraPay.git
 cd PipraPay
+```
 
-Then follow the docs to install and configure your first deployment.
+---
 
-⭐ Star · Fork · Build · Contribute · Improve Payments for Everyone
+## ⚖️ License
+
+AGPL-3.0 — You can use, modify, and self-host PipraPay.  
+If you distribute modified versions, you must keep them open-source under the same license.
+
+---
+
+## ❤️ Built by the Community, for the Community
